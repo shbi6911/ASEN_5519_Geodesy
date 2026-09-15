@@ -52,6 +52,7 @@ def main_1():
 
     # --- plot E(n) --- *** this code is AI-written
     fig, ax = plt.subplots(figsize=(7, 4.5))
+    plt.rcParams.update({'font.size': 20})
     ax.plot(n_arr, e_n, lw=1.2)
     ax.set_xlabel('n')
     ax.set_ylabel(r'$E(n) = S(n) - 2/(2n+1)$')
